@@ -7,7 +7,7 @@ body {
 }
 
 .container-wrapper--red {
-    background-color: #f05f40;
+    background-color:#b54d03;
     color: white;
 }
 
@@ -77,10 +77,10 @@ body {
 /* block-dividers */
 
 .block-divider {
-    width: 75px;
+    width: 150px;
     height: 5px;
     border: 0;
-    background-color:#444;
+    background-color:#b54d03;
 
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 .block-divider--short {
-    width: 35px;
+    width: 150px;
 }
 
 /*content containers */
@@ -169,17 +169,17 @@ body {
 
 .btn--red {
     color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+    background-color: #b54d03;
+    border-color: #b54d03;
 }
 
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
+    background-color: white;
+    border-color: white;
+    color: #b54d03;
 }
 
 .feature {
@@ -200,5 +200,36 @@ body {
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
-    color: #f05f40;
+    color: #b54d03;
+}
+
+.feature .btn:hover,
+.feature .btn:active,
+.feature .btn:focus,
+.feature .btn:active:focus {
+    background-color: #b54d03;
+    border-color: #b54d03;
+    color: white;
+}
+
+/* table */
+
+.table {
+    color: white;
+}
+
+table tr {
+    background-color: #b54d03;
+}
+
+section .text-uppercase {
+    text-align: center;
+}
+
+#monthly {
+ color: #b54d03
+}
+
+.table-hover {
+    background-color: #b54d03;
 }
